@@ -178,7 +178,7 @@ export const translations = {
     // About Page
     about: {
       title: 'Nosotros',
-      intro1: 'No somos solo otro taller. Somos especialistas en transmisiones que se enorgullecen de hacer el trabajo bien a la primera. Por más de 15 años, hemos servido a la comunidad de Santa Juanita con servicio honesto y confiable.',
+      intro1: 'No somos solo otro taller. Somos especialistas en mecánica y transmisiones y nos enorgullece hacer el trabajo bien a la primera. Por más de 15 años, hemos servido al pueblo de Puerto Rico con servicio honesto y confiable.',
       intro2: 'Nuestro taller fue construido sobre un principio simple: tratar el auto de cada cliente como si fuera el nuestro. Eso significa sin atajos, sin reparaciones innecesarias y sin sorpresas en tu factura.',
       teamPhotoPlaceholder: 'Foto del Equipo',
       ourStory: 'Nuestra Historia',
@@ -206,7 +206,7 @@ export const translations = {
       ourExpertise: 'Nuestra Experiencia en Transmisiones',
       expertiseDesc: 'Las transmisiones son lo que mejor hacemos. Nuestro equipo tiene capacitación y certificación específica en sistemas de transmisión modernos, incluyendo las complejas unidades CVT que muchos talleres rechazan o diagnostican incorrectamente.',
       expertiseItems: [
-        'Capacitación de fábrica en sistemas CVT (Nissan, Honda, Toyota, Subaru)',
+        'Capacitación de fábrica en sistemas CVT',
         'Certificación en reconstrucción de transmisiones automáticas',
         'Diagnósticos expertos con herramientas de escaneo nivel OEM',
         'Educación continua en nuevas tecnologías de transmisión',
