@@ -41,7 +41,7 @@ export const translations = {
       badge: 'Expertos en Transmisiones CVT',
       headline: 'Especialistas en Reparación de Transmisiones',
       headlineAccent: ' – CVT, Automáticas y Manuales',
-      description: 'Expertos en diagnóstico y reparación de transmisiones, hojalatería y mecánica liviana en Santa Juanita, Bayamón. Desde reconstrucciones de CVT hasta reparaciones completas, tu vehículo quedará como nuevo.',
+      description: 'Expertos en diagnóstico y reparación de transmisiones, hojalatería y mecánica liviana en Bayamón. Desde reconstrucciones de CVT hasta reparaciones completas, tu vehículo quedará como nuevo.',
       yearsExperience: '15+ Años',
       servingPR: 'Sirviendo a Puerto Rico',
       allVehicles: 'Todo Tipo de Vehículos',
@@ -430,12 +430,12 @@ export const translations = {
     // About Page
     about: {
       title: 'About Us',
-      intro1: 'We\'re not just another auto shop. We\'re transmission specialists who take pride in doing the job right the first time. For over 15 years, we\'ve been serving the Santa Juanita community with honest, reliable service.',
+      intro1: 'We\'re not just another auto shop. We\'re transmission specialists who take pride in doing the job right the first time. For over 15 years, we\'ve been serving the community of Puerto Rico with honest, reliable service.',
       intro2: 'Our shop was built on a simple principle: treat every customer\'s car like it\'s our own. That means no shortcuts, no unnecessary repairs, and no surprises on your bill.',
       teamPhotoPlaceholder: 'Team Photo Placeholder',
       ourStory: 'Our Story',
       story1: 'MAXI SERVICE AL inc started in 2009 when our founder, after working for dealerships for over a decade, saw how customers were often overcharged for simple repairs or sold services they didn\'t need. He knew there had to be a better way.',
-      story2: 'We opened our doors in Santa Juanita, Bayamon, with one goal: provide expert transmission repair at fair prices with complete transparency. We started small, but word spread quickly. Customers appreciated getting straight answers and quality work.',
+      story2: 'We opened our doors in Bayamón, with one goal: provide expert transmission repair at fair prices with complete transparency. We started small, but word spread quickly. Customers appreciated getting straight answers and quality work.',
       story3: 'Over the years, we\'ve grown into a full-service shop while never losing our focus on transmissions. Today, we\'re one of the most trusted names in Puerto Rico for CVT and automatic transmission repair.',
       story4: 'What makes us different? We invest in the latest training and equipment. When CVT transmissions became common, we didn\'t shy away from them like other shops. We got certified, bought the specialized tools, and became experts. That\'s just how we do things.',
       yearsInBusiness: 'Years in Business',
