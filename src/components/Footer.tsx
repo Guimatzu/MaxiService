@@ -58,14 +58,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:+17875551234" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="tel:+17874331355" className="text-muted-foreground hover:text-primary transition-colors">
                   (787) 433-1355
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <MessageCircle className="w-4 h-4 text-primary flex-shrink-0" />
                 <a
-                  href="https://wa.me/17875551234"
+                  href="https://wa.me/17874331355"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -76,7 +76,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  AVE. ZINIA #2006-A<br />
+                  Ave. Zinia #2006-A<br />
                   Bayamón<br />
                   Puerto Rico 00959
                 </span>
@@ -107,7 +107,7 @@ export default function Footer() {
               © {new Date().getFullYear()} {t.brand.name}. {t.common.allRightsReserved}
             </p>
             <p className="text-muted-foreground text-sm">
-              >> Página bajo construcción <<
+               Página bajo construcción 
             </p>
           </div>
         </div>
