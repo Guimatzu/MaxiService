@@ -59,7 +59,7 @@ export default function Footer() {
               <li className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <a href="tel:+17875551234" className="text-muted-foreground hover:text-primary transition-colors">
-                  (787) 555-1234
+                  (787) 433-1355
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sm">
@@ -76,9 +76,9 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Main Street<br />
-                  Santa Juanita, Bayamon<br />
-                  Puerto Rico 00956
+                  AVE. ZINIA #2006-A<br />
+                  Bayamón<br />
+                  Puerto Rico 00959
                 </span>
               </li>
             </ul>
@@ -91,8 +91,8 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-primary flex-shrink-0" />
                 <div className="text-muted-foreground">
-                  <p>{t.contact.monFri}: 8:00 AM - 6:00 PM</p>
-                  <p>{t.contact.saturday}: 8:00 AM - 2:00 PM</p>
+                  <p>{t.contact.monFri}: 8:00 AM - 5:00 PM</p>
+                  <p>{t.contact.saturday}: {t.contact.closed}</p>
                   <p>{t.contact.sunday}: {t.contact.closed}</p>
                 </div>
               </li>
@@ -107,7 +107,7 @@ export default function Footer() {
               © {new Date().getFullYear()} {t.brand.name}. {t.common.allRightsReserved}
             </p>
             <p className="text-muted-foreground text-sm">
-              Santa Juanita, Bayamon, Puerto Rico
+              >> Página bajo construcción <<
             </p>
           </div>
         </div>
