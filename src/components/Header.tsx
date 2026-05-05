@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
            <Link to="/" className="flex items-center gap-2">
-             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+             <div className="h-10 flex items-center justify-center">
                 <img src="/maxi-LOGO.png" alt="Maxi Service Logo" className="h-6" />
             </div>
           </Link>
@@ -53,7 +53,7 @@ export default function Header() {
               <span>{language === 'es' ? 'EN' : 'ES'}</span>
             </button>
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-lg font-medium hover:bg-primary/90 transition-colors"
             >
               <Phone className="w-4 h-4" />
