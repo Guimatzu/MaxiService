@@ -21,8 +21,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
            <Link to="/" className="flex items-center gap-2">
-             <div className="h-12 flex items-center justify-center">
-                <img src="/maxi-LOGO.png" alt="Maxi Service Logo" />
+             <div className="flex items-center justify-center">
+                <img src="/maxi-LOGO.png" alt="Maxi Service Logo" classname="h-10" />
             </div>
           </Link>
 
@@ -101,7 +101,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="flex items-center justify-center gap-2 mt-4 bg-primary text-primary-foreground px-5 py-3 rounded-lg font-medium"
             >
               <Phone className="w-5 h-5" />
