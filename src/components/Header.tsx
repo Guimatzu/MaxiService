@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Phone, Wrench, Globe } from 'lucide-react'
+import { Menu, X, Phone, Globe } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
+import { maxiLogo } from '.../public/maxi-LOGO.png
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -22,12 +23,13 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Wrench className="w-6 h-6 text-primary-foreground" />
+              {/* <Wrench className="w-6 h-6 text-primary-foreground" /> */}
+              <maxiLogo className= "h-6"/>
             </div>
-            <div className="hidden sm:block">
+            {/* <div className="hidden sm:block">
               <span className="font-bold text-lg text-foreground">{t.brand.name}</span>
               <span className="text-xs block text-muted-foreground -mt-1">{t.brand.tagline}</span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}
