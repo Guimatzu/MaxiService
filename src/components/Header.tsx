@@ -21,8 +21,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
            <Link to="/" className="flex items-center gap-2">
-             <div className="h-10 flex items-center justify-center">
-                <img src="/maxi-LOGO.png" alt="Maxi Service Logo" className="h-6" />
+             <div className="flex items-center justify-center">
+                <img src="/maxi-LOGO.png" alt="Maxi Service Logo" />
             </div>
           </Link>
 
