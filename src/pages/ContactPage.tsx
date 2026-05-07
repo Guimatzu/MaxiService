@@ -54,7 +54,7 @@ export default function ContactPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Phone */}
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="flex items-center gap-4 p-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -62,13 +62,13 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t.contact.callUs}</p>
-                <p className="text-primary font-medium">(787) 555-1234</p>
+                <p className="text-primary font-medium">(787) 433-1355</p>
               </div>
             </a>
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/17875551234"
+              href="https://wa.me/17874331355"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
@@ -92,7 +92,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t.common.email}</p>
-                <p className="text-primary font-medium">info@maxiserviceal.pr</p>
+                <p className="text-primary font-medium">maxiservicepr@gmail.com</p>
               </div>
             </a>
 
@@ -103,7 +103,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t.common.hours}</p>
-                <p className="text-muted-foreground text-sm">{t.contact.monFri}: 8AM-6PM</p>
+                <p className="text-muted-foreground text-sm">{t.contact.monFri}: 8AM-5PM</p>
               </div>
             </div>
           </div>
@@ -250,7 +250,7 @@ export default function ContactPage() {
               {/* Map Placeholder */}
               <div className="flex-1 min-h-[300px] bg-card rounded-2xl border border-border overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30248.49877855936!2d-66.17000000000001!3d18.40000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c036a2e6c9b7e4f%3A0x5b4c0e7e5a7a7a7a!2sSanta%20Juanita%2C%20Bayam%C3%B3n%2C%20Puerto%20Rico!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3786.2359392205108!2d-66.15767699999999!3d18.382109999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDIyJzU1LjYiTiA2NsKwMDknMjcuNiJX!5e0!3m2!1sen!2sus!4v1778168453440!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '300px' }}
@@ -270,12 +270,12 @@ export default function ContactPage() {
                       <h3 className="font-semibold text-foreground">{t.common.address}</h3>
                     </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      123 Main Street<br />
-                      Santa Juanita, Bayamon<br />
-                      Puerto Rico 00956
+                      Ave. Zinia #2006-A<br />
+                      Bayamon<br />
+                      Puerto Rico 00959
                     </p>
                     <a
-                      href="https://maps.google.com/?q=Santa+Juanita+Bayamon+Puerto+Rico"
+                      href="https://maps.app.goo.gl/fFgoM8doCho5wN6z5"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-primary font-medium mt-4 hover:underline"
@@ -291,11 +291,11 @@ export default function ContactPage() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex justify-between">
                         <span>{t.contact.monFri}</span>
-                        <span className="text-foreground">8:00 AM - 6:00 PM</span>
+                        <span className="text-foreground">8:00 AM - 5:00 PM</span>
                       </li>
                       <li className="flex justify-between">
                         <span>{t.contact.saturday}</span>
-                        <span className="text-foreground">8:00 AM - 2:00 PM</span>
+                        <span className="text-foreground">{t.contact.closed}</span>
                       </li>
                       <li className="flex justify-between">
                         <span>{t.contact.sunday}</span>
@@ -325,10 +325,10 @@ export default function ContactPage() {
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/90 transition-all"
             >
               <Phone className="w-5 h-5" />
-              (787) 555-1234
+              (787) 433-1355
             </a>
             <a
-              href="https://wa.me/17875551234"
+              href="https://wa.me/17874331355"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/10 transition-all"
