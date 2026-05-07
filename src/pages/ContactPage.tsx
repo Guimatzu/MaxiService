@@ -85,7 +85,7 @@ export default function ContactPage() {
             {/* Email */}
             <a
               href="mailto:maxiservicepr@gmail.com"
-              className="flex items-center gap-4 p-4 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
+              className="flex items-center gap-4 p-2 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                 <Mail className="w-7 h-7 text-primary" />
