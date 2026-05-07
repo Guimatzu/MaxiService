@@ -57,7 +57,7 @@ export default function ContactPage() {
               href="tel:+17874331355"
               className="flex items-center gap-4 p-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
-              <div className="w-16 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+              <div className="w-12 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                 <Phone className="w-7 h-7 text-primary" />
               </div>
               <div>
