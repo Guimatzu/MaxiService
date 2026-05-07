@@ -25,14 +25,14 @@ export default function ServicesPage() {
       features: t.services.transmissionFeatures,
       signs: t.services.transmissionSigns,
     },
-    {
-      id: 'diagnostics',
-      icon: Gauge,
-      title: t.services.diagnosticsTitle,
-      subtitle: t.services.diagnosticsSubtitle,
-      description: t.services.diagnosticsDesc,
-      features: t.services.diagnosticsFeatures,
-      signs: t.services.diagnosticsSigns,
+     {
+      id: 'bodywork',
+      icon: Car,
+      title: t.services.bodyworkTitle,
+      subtitle: t.services.bodyworkSubtitle,
+      description: t.services.bodyworkDesc,
+      features: t.services.bodyworkFeatures,
+      signs: t.services.bodyworkSigns,
     },
     {
       id: 'mechanic',
@@ -43,15 +43,15 @@ export default function ServicesPage() {
       features: t.services.mechanicFeatures,
       signs: t.services.mechanicSigns,
     },
-    {
-      id: 'bodywork',
-      icon: Car,
-      title: t.services.bodyworkTitle,
-      subtitle: t.services.bodyworkSubtitle,
-      description: t.services.bodyworkDesc,
-      features: t.services.bodyworkFeatures,
-      signs: t.services.bodyworkSigns,
-    },
+     {
+      id: 'diagnostics',
+      icon: Gauge,
+      title: t.services.diagnosticsTitle,
+      subtitle: t.services.diagnosticsSubtitle,
+      description: t.services.diagnosticsDesc,
+      features: t.services.diagnosticsFeatures,
+      signs: t.services.diagnosticsSigns,
+    },   
   ]
 
   return (
@@ -186,14 +186,14 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/90 transition-all"
             >
               <Phone className="w-5 h-5" />
-              (787) 555-1234
+              (787) 433-1355
             </a>
             <a
-              href="https://wa.me/17875551234"
+              href="https://wa.me/17874331355"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/10 transition-all"
