@@ -103,7 +103,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t.common.hours}</p>
-                <p className="text-muted-foreground text-sm">{t.contact.monFri}: 8AM-5PM</p>
+                <p className="text-primary text-sm">{t.contact.monFri}: 8AM-5PM</p>
               </div>
             </div>
           </div>
