@@ -22,7 +22,9 @@ export default function Header() {
           {/* Logo */}
            <Link to="/" className="flex items-center gap-2">
              <div className="h-10 flex items-center justify-center">
-                <img src="/maxi-LOGO.png" alt="Maxi Service Logo" classname="h-10" />
+                <img src="/maxi-LOGO.png" 
+                  alt="Maxi Service Logo" 
+                  className="h-full w-auto object-contain" />
             </div>
           </Link>
 
