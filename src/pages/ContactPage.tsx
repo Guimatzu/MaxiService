@@ -92,7 +92,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-foreground">{t.common.email}</p>
-                <p className="text-primary font-medium">maxiservicepr@gmail.com</p>
+                <p className="text-primary font-medium object-contain">maxiservicepr@gmail.com</p>
               </div>
             </a>
 
