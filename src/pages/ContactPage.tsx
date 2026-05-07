@@ -209,7 +209,6 @@ export default function ContactPage() {
                       >
                         <option value="">{t.contact.selectService}</option>
                         <option value="transmission">{t.contact.transmissionRepair}</option>
-                        <option value="cvt">{t.contact.cvtRepair}</option>
                         <option value="diagnostics">{t.contact.diagnostics}</option>
                         <option value="mechanic">{t.contact.lightMechanic}</option>
                         <option value="bodywork">{t.contact.bodywork}</option>
