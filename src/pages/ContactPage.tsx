@@ -55,7 +55,7 @@ export default function ContactPage() {
             {/* Phone */}
             <a
               href="tel:+17874331355"
-              className="flex items-center gap-4 p-2 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
+              className="flex items-center gap-4 px-2 py-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                 <Phone className="w-7 h-7 text-primary" />
@@ -71,7 +71,7 @@ export default function ContactPage() {
               href="https://wa.me/17874331355"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 p-2 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
+              className="flex items-center gap-4 px-2 py-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                 <MessageCircle className="w-7 h-7 text-primary" />
@@ -85,7 +85,7 @@ export default function ContactPage() {
             {/* Email */}
             <a
               href="mailto:maxiservicepr@gmail.com"
-              className="flex items-center gap-4 p-2 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
+              className="flex items-center gap-4 px-2 py-6 bg-background rounded-xl border border-border hover:border-primary/50 transition-all group"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                 <Mail className="w-7 h-7 text-primary" />
@@ -97,7 +97,7 @@ export default function ContactPage() {
             </a>
 
             {/* Hours */}
-            <div className="flex items-center gap-4 p-2 bg-background rounded-xl border border-border">
+            <div className="flex items-center gap-4 px-2 py-6 bg-background rounded-xl border border-border">
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Clock className="w-7 h-7 text-primary" />
               </div>
