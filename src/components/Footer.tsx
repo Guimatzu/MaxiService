@@ -12,12 +12,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center"> */}
                 
                 <img src="/maxi-ICON.png" 
                   alt="Maxi Service Logo" 
-                  className="w-auto object-contain" />
-              </div>
+                  className="h-10 w-auto flex items-center justify-center" />
+              {/* </div> */}
               <div>
                 <span className="font-bold text-lg text-foreground">{t.brand.name}</span>
                 <span className="text-xs block text-muted-foreground -mt-1">{t.brand.tagline}</span>
