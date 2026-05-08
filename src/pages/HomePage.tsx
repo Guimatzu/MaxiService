@@ -292,7 +292,7 @@ export default function HomePage() {
                   <div>
                     <p className="font-semibold text-foreground">{t.common.hours}</p>
                     <p className="text-muted-foreground">
-                      {t.contact.monFri}: 8:00 AM - 6:00 PM<br />
+                      {t.contact.monFri}: 8:00 AM - 5:00 PM<br />
                       {t.contact.saturday}: {t.contact.closed}<br />
                       {t.contact.sunday}: {t.contact.closed}
                     </p>
@@ -332,7 +332,7 @@ export default function HomePage() {
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/90 transition-all"
             >
               <Phone className="w-5 h-5" />
-              (787) 555-1234
+              (787) 433-1355
             </a>
             <a
               href="https://wa.me/17874331355"
