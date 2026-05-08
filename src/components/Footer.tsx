@@ -77,11 +77,15 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">
+                <a 
+                  href="https://maps.app.goo.gl/UrmpKzrgYGTdgKF36"
+                  className="text-muted-foreground hover:text-primary transition-colors">
+                {/* <span className="text-muted-foreground"> */}
                   Ave. Zinia #2006-A<br />
                   Bayamón<br />
                   Puerto Rico 00959
-                </span>
+                {/* </span> */}
+                </a>
               </li>
             </ul>
           </div>
