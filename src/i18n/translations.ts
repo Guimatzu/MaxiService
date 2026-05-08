@@ -138,8 +138,8 @@ export const translations = {
       ],
       mechanicSigns: [
         'Frenos que rechinan o hacen ruido',
-        'Vehículo se jala hacia un lado',
-        'Ralentí irregular o se apaga',
+        'Vehículo se hala hacia un lado',
+        'Vibraciones en baja o se apaga',
         'Manejo brusco o incómodo',
         'Dificultad para arrancar',
         'Menor eficiencia de combustible',
