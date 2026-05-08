@@ -250,7 +250,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: 'Tus expertos de confianza para reparación en Hojalatería, transmisiones CVT, automáticas y manuales en Bayamón.',
+      description: 'Tus expertos de confianza para reparación en hojalatería, pintura, transmisiones CVT, automáticas y manuales en Bayamón.',
     },
   },
   en: {
