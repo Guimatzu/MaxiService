@@ -178,7 +178,7 @@ export const translations = {
     // About Page
     about: {
       title: 'Nosotros',
-      intro1: 'No somos solo otro taller. Somos especialistas en mecánica y transmisiones y nos enorgullece hacer el trabajo bien a la primera. Por más de 15 años, hemos servido al pueblo de Puerto Rico con servicio honesto y confiable.',
+      intro1: 'No somos solo otro taller. Somos especialistas en mecánica, hojalatería y transmisiones y nos enorgullece hacer el trabajo bien a la primera. Por más de 20 años, hemos servido al pueblo de Puerto Rico con servicio honesto y confiable.',
       intro2: 'Nuestro taller fue construido sobre un principio simple: tratar el auto de cada cliente como si fuera el nuestro. Eso significa sin atajos, sin reparaciones innecesarias y sin sorpresas en tu factura.',
       teamPhotoPlaceholder: 'Foto del Equipo',
       ourStory: 'Nuestra Historia',
@@ -202,7 +202,7 @@ export const translations = {
       familyAtmosphere: 'Ambiente Familiar',
       familyAtmosphereDesc: 'Tratamos a nuestros clientes como familia. Te saludarán por tu nombre, responderán tus preguntas y nunca te sentirás como solo otro número de ticket.',
       communityFirst: 'Comunidad Primero',
-      communityFirstDesc: 'Hemos sido parte de Santa Juanita por más de 15 años. Esta comunidad nos apoyó cuando comenzamos, y estamos orgullosos de retribuir.',
+      communityFirstDesc: 'Hemos sido parte de Bayamón por más de 20 años. Esta comunidad nos apoyó cuando comenzamos, y estamos orgullosos de retribuir.',
       ourExpertise: 'Nuestra Experiencia en Transmisiones',
       expertiseDesc: 'Las transmisiones son lo que mejor hacemos. Nuestro equipo tiene capacitación y certificación específica en sistemas de transmisión modernos, incluyendo las complejas unidades CVT que muchos talleres rechazan o diagnostican incorrectamente.',
       expertiseItems: [
@@ -250,7 +250,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: 'Tus expertos de confianza para reparación de transmisiones CVT, automáticas y manuales en Santa Juanita, Bayamón.',
+      description: 'Tus expertos de confianza para reparación en Hojalatería, transmisiones CVT, automáticas y manuales en Bayamón.',
     },
   },
   en: {
@@ -293,7 +293,7 @@ export const translations = {
       badge: 'CVT Transmission Experts',
       headline: 'Transmission Repair Specialists',
       headlineAccent: ' – CVT, Automatic & Manual',
-      description: 'Expert transmission diagnostics and repair in Santa Juanita, Bayamon. From CVT rebuilds to complete overhauls, we get your vehicle running smooth again.',
+      description: 'Expert bodywork, transmission diagnostics and repair in Bayamon. From CVT rebuilds to complete overhauls, we get your vehicle running smooth again.',
       yearsExperience: '20+ Years',
       servingPR: 'Serving Puerto Rico',
       allVehicles: 'All Vehicles',
@@ -430,7 +430,7 @@ export const translations = {
     // About Page
     about: {
       title: 'About Us',
-      intro1: 'We\'re not just another auto shop. We\'re transmission specialists who take pride in doing the job right the first time. For over 15 years, we\'ve been serving the community of Puerto Rico with honest, reliable service.',
+      intro1: 'We\'re not just another auto shop. We\'re transmission and bodywork specialists who take pride in doing the job right the first time. For over 20 years, we\'ve been serving the community of Puerto Rico with honest, reliable service.',
       intro2: 'Our shop was built on a simple principle: treat every customer\'s car like it\'s our own. That means no shortcuts, no unnecessary repairs, and no surprises on your bill.',
       teamPhotoPlaceholder: 'Team Photo Placeholder',
       ourStory: 'Our Story',
@@ -454,11 +454,11 @@ export const translations = {
       familyAtmosphere: 'Family Atmosphere',
       familyAtmosphereDesc: 'We treat our customers like family. You\'ll be greeted by name, your questions will be answered, and you\'ll never feel like just another ticket number.',
       communityFirst: 'Community First',
-      communityFirstDesc: 'We\'ve been part of Santa Juanita for over 15 years. This community supported us when we started, and we\'re proud to give back.',
+      communityFirstDesc: 'We\'ve been part of Bayamón for over 20 years. This community supported us when we started, and we\'re proud to give back.',
       ourExpertise: 'Our Transmission Expertise',
       expertiseDesc: 'Transmissions are what we do best. Our team has specific training and certification in modern transmission systems, including the complex CVT units that many shops turn away or misdiagnose.',
       expertiseItems: [
-        'Factory-trained in CVT systems (Nissan, Honda, Toyota, Subaru)',
+        'Factory-trained in CVT systems',
         'Certified in automatic transmission rebuilding',
         'Expert diagnostics with OEM-level scan tools',
         'Continuous education on new transmission technologies',
@@ -502,7 +502,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: 'Your trusted experts for CVT, automatic, and manual transmission repair in Santa Juanita, Bayamon.',
+      description: 'Your trusted experts for CVT, automatic, and manual transmission repair in Bayamón.',
     },
   },
 } as const
