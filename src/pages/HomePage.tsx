@@ -39,14 +39,14 @@ export default function HomePage() {
               {/* CTA Buttons */}
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
-                  href="tel:+17875551234"
+                  href="tel:+17874331355"
                   className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl"
                 >
                   <Phone className="w-5 h-5" />
                   {t.common.callNow}
                 </a>
                 <a
-                  href="https://wa.me/17875551234"
+                  href="https://wa.me/17874331355"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/80 transition-all border border-border"
@@ -281,9 +281,9 @@ export default function HomePage() {
                   <div>
                     <p className="font-semibold text-foreground">{t.common.address}</p>
                     <p className="text-muted-foreground">
-                      123 Main Street<br />
-                      Santa Juanita, Bayamon<br />
-                      Puerto Rico 00956
+                      Ave. Zinia #2006-A<br />
+                      Bayamon<br />
+                      Puerto Rico 00959
                     </p>
                   </div>
                 </div>
@@ -293,7 +293,7 @@ export default function HomePage() {
                     <p className="font-semibold text-foreground">{t.common.hours}</p>
                     <p className="text-muted-foreground">
                       {t.contact.monFri}: 8:00 AM - 6:00 PM<br />
-                      {t.contact.saturday}: 8:00 AM - 2:00 PM<br />
+                      {t.contact.saturday}: {t.contact.closed}<br />
                       {t.contact.sunday}: {t.contact.closed}
                     </p>
                   </div>
@@ -301,13 +301,18 @@ export default function HomePage() {
               </div>
             </div>
             {/* Map Placeholder */}
-            <div className="aspect-video bg-secondary rounded-xl border border-border flex items-center justify-center">
-              <div className="text-center p-8">
-                <MapPin className="w-16 h-16 text-primary/50 mx-auto mb-4" />
-                <p className="text-muted-foreground">{t.home.mapPlaceholder}</p>
-                <p className="text-muted-foreground text-sm">Santa Juanita, Bayamon, PR</p>
+              <div className="flex-1 min-h-[300px] bg-card rounded-2xl border border-border overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3786.2359392205108!2d-66.15767699999999!3d18.382109999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDIyJzU1LjYiTiA2NsKwMDknMjcuNiJX!5e0!3m2!1sen!2sus!4v1778168453440!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: '300px' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="MAXI SERVICE AL inc Location Map"
+                />
               </div>
-            </div>
           </div>
         </div>
       </section>
@@ -323,14 +328,14 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/90 transition-all"
             >
               <Phone className="w-5 h-5" />
               (787) 555-1234
             </a>
             <a
-              href="https://wa.me/17875551234"
+              href="https://wa.me/17874331355"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/10 transition-all"
