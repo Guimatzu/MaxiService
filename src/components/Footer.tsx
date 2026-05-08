@@ -58,33 +58,35 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t.common.contact}</h3>
             <ul className="space-y-3">
+              {/* Phone number */}
               <li className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <a href="tel:+17874331355" className="text-muted-foreground hover:text-primary transition-colors">
                   (787) 433-1355
                 </a>
               </li>
+              {/* Whatsapp */}
               <li className="flex items-center gap-3 text-sm">
                 <MessageCircle className="w-4 h-4 text-primary flex-shrink-0" />
                 <a
                   href="https://wa.me/17874331355"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                  className="text-muted-foreground hover:text-primary transition-colors">
                   WhatsApp
                 </a>
               </li>
+              {/* Address */}
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
                 <a 
                   href="https://maps.app.goo.gl/UrmpKzrgYGTdgKF36"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors">
-                {/* <span className="text-muted-foreground"> */}
                   Ave. Zinia #2006-A<br />
                   Bayamón<br />
                   Puerto Rico 00959
-                {/* </span> */}
                 </a>
               </li>
             </ul>
