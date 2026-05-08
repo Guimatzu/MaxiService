@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Phone, MapPin, Clock, MessageCircle, Wrench } from 'lucide-react'
+import { Phone, MapPin, Clock, MessageCircle } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 
 export default function Footer() {
@@ -13,7 +13,10 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Wrench className="w-6 h-6 text-primary-foreground" />
+                
+                <img src="/maxi-ICON.png" 
+                  alt="Maxi Service Logo" 
+                  className="h-6 w-auto object-contain" />
               </div>
               <div>
                 <span className="font-bold text-lg text-foreground">{t.brand.name}</span>
