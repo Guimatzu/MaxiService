@@ -16,7 +16,7 @@ export default function Footer() {
                 
                 <img src="/maxi-ICON.png" 
                   alt="Maxi Service Logo" 
-                  className="h-6 w-auto object-contain" />
+                  className="w-auto object-contain" />
               </div>
               <div>
                 <span className="font-bold text-lg text-foreground">{t.brand.name}</span>
