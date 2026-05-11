@@ -64,7 +64,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Hero Image Placeholder */}
+            {/* Hero Image  */}
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-secondary">
                 <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-secondary to-muted">
@@ -77,7 +77,7 @@ export default function HomePage() {
               </div>
 
               {/* Floating Badge */}
-              <div className="absolute -bottom-4 -left-4 bg-card rounded-xl p-4 shadow-lg border border-border">
+              <div className="absolute -bottom-4 -right-4 bg-card rounded-xl p-4 shadow-lg border border-border">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Award className="w-6 h-6 text-primary" />
