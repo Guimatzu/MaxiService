@@ -66,14 +66,16 @@ export default function HomePage() {
 
             {/* Hero Image Placeholder */}
             <div className="relative">
-              <div className="aspect-[4/3] bg-secondary rounded-2xl overflow-hidden border border-border">
-                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-muted">
-                  <div className="text-center p-8">
-                    <Cog className="w-24 h-24 text-primary mx-auto mb-4 animate-spin-slow" />
-                    <p className="text-muted-foreground text-sm">{t.home.shopImagePlaceholder}</p>
-                  </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-secondary">
+                <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-secondary to-muted">
+                  <img
+                    src="/maxi_front.png"
+                    alt="Shop"
+                    className="h-full w-full object-cover sm:object-contain"
+                  />
                 </div>
               </div>
+
               {/* Floating Badge */}
               <div className="absolute -bottom-4 -left-4 bg-card rounded-xl p-4 shadow-lg border border-border">
                 <div className="flex items-center gap-3">
