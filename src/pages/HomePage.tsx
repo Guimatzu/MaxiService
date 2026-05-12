@@ -11,6 +11,7 @@ import {
   MapPin,
   CheckCircle2,
   ArrowRight,
+  Wrench
 } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 
@@ -99,11 +100,11 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div className="flex items-center gap-4">
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Clock className="w-7 h-7 text-primary" />
+                <Wrench className="w-7 h-7 text-primary" />
               </div>
               <div>
-                <p className="font-bold text-foreground text-lg">{t.home.yearsExperience}</p>
-                <p className="text-muted-foreground text-sm">{t.home.servingPR}</p>
+                <p className="font-bold text-foreground text-lg">{t.home.towService}</p>
+                <p className="text-muted-foreground text-sm">{t.home.towHeadline}</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
