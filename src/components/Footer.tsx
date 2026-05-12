@@ -115,7 +115,7 @@ export default function Footer() {
               © {new Date().getFullYear()} {t.brand.name}. {t.common.allRightsReserved}
             </p>
             <p className="text-muted-foreground text-sm">
-               Página bajo construcción 
+              {t.footer.construction}
             </p>
           </div>
         </div>
