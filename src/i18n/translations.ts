@@ -82,6 +82,8 @@ export const translations = {
       readyToFix: '¿Listo para Reparar tu Vehículo?',
       dontWait: 'No esperes hasta que un problema pequeño se convierta en uno grande. Contáctanos hoy para una consulta diagnóstica.',
       whatsappUs: 'Escríbenos',
+      towService: 'Servicio de grúa',
+      towHeadline: 'Recogido en toda la isla',
     },
     // Services Page
     services: {
@@ -334,6 +336,8 @@ export const translations = {
       readyToFix: 'Ready to Get Your Transmission Fixed?',
       dontWait: 'Don\'t wait until a small problem becomes a big one. Contact us today for a free computer diagnostic.',
       whatsappUs: 'WhatsApp Us',
+      towService: 'Towing Service',
+      towHeadline: 'Available on the whole island',
     },
     // Services Page
     services: {
