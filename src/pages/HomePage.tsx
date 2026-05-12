@@ -147,7 +147,7 @@ export default function HomePage() {
                 description: t.home.transmissionRepairDesc,
               },
               {
-                icon: Car,
+                icon: Wrench,
                 title: t.home.lightMechanic,
                 description: t.home.lightMechanicDesc,
               },
@@ -157,7 +157,7 @@ export default function HomePage() {
                 description: t.home.diagnosticsDesc,
               },
               {
-                icon: Award,
+                icon: Car,
                 title: t.home.bodywork,
                 description: t.home.bodyworkDesc,
               },
@@ -242,12 +242,12 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: Award,
+                icon: Wrench,
                 title: t.home.expertTechnicians,
                 description: t.home.expertTechniciansDesc,
               },
               {
-                icon: Shield,
+                icon: Award,
                 title: t.home.honestPricing,
                 description: t.home.honestPricingDesc,
               },
