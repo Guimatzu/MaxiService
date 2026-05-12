@@ -88,7 +88,7 @@ export const translations = {
     // Services Page
     services: {
       title: 'Nuestros Servicios',
-      description: 'Desde reparación de transmisiones hasta hojalatería, ofrecemos servicios automotrices completos con enfoque en calidad y satisfacción del cliente.',
+      description: 'Tu solución automotriz integral: servicios mecánicos, reparación de transmisiones, hojalatería y remolque confiable cuando lo necesites.',
       transmissionTitle: 'Reparación de Transmisiones',
       transmissionSubtitle: 'CVT, Automáticas y Manuales',
       transmissionDesc: 'Servicios completos de transmisión desde diagnóstico hasta reconstrucciones completas. Nos especializamos en todos los tipos de transmisiones con experiencia particular en sistemas CVT modernos.',
@@ -331,7 +331,7 @@ export const translations = {
       fastTurnaround: 'Fast Turnaround',
       fastTurnaroundDesc: 'We understand you need your vehicle and fixing it in a timely manner is our priority.',
       whereToFindUs: 'Where to Find Us',
-      locationDesc: 'Conveniently located io Ave. Zinia in Lomas Verdes, Bayamon. Easy access from PR-5 and PR-2. Free parking available for customers.',
+      locationDesc: 'Conveniently located in Ave. Zinia in Lomas Verdes, Bayamon. Easy access from PR-5 and PR-2, just before the Bayamón Soccer Complex.',
       mapPlaceholder: 'Google Map Embed',
       readyToFix: 'Ready to Get Your Transmission Fixed?',
       dontWait: 'Don\'t wait until a small problem becomes a big one. Contact us today for a free computer diagnostic.',
@@ -342,7 +342,7 @@ export const translations = {
     // Services Page
     services: {
       title: 'Our Services',
-      description: 'From transmission repairs to bodywork, we provide comprehensive automotive services with a focus on quality and customer satisfaction.',
+      description: 'Your all‑in‑one automotive solution—mechanic services, transmission repair, bodywork, and reliable towing when needed.',
       transmissionTitle: 'Transmission Repair',
       transmissionSubtitle: 'CVT, Automatic & Manual',
       transmissionDesc: 'Complete transmission services from diagnostics to full rebuilds. We specialize in all transmission types with particular expertise in modern CVT systems.',
