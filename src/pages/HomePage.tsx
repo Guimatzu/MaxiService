@@ -215,16 +215,41 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
+
+            const workPhotos = [
+              {
+                src: "/trans1.png",
+                alt: "Foto reparacion",
+              },
+              {
+                src: "/trans2.png",
+                alt: "Foto piezas",
+              },
+              {
+                src: "/trans3.png",
+                alt: "Foto transmision",
+              },
+              {
+                src: "/engine.png",
+                alt: "Foto motor",
+              },
+            ];
+
             <div className="grid grid-cols-2 gap-4">
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="aspect-square bg-card rounded-xl border border-border flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <Cog className="w-12 h-12 text-primary/50 mx-auto" />
-                    <p className="text-muted-foreground text-xs mt-2">{t.home.workPhoto} {i}</p>
-                  </div>
+              {workPhotos.map((photo, index) => (
+                <div
+                  key={index}
+                  className="aspect-square overflow-hidden rounded-xl border border-border"
+                >
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               ))}
             </div>
+            
           </div>
         </div>
       </section>
