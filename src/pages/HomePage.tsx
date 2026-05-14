@@ -17,6 +17,24 @@ import { useLanguage } from '../i18n/LanguageContext'
 
 export default function HomePage() {
   const { t } = useLanguage()
+  const workPhotos = [
+              {
+                src: "/trans1.png",
+                alt: "Foto reparacion",
+              },
+              {
+                src: "/trans2.png",
+                alt: "Foto piezas",
+              },
+              {
+                src: "/trans3.png",
+                alt: "Foto transmision",
+              },
+              {
+                src: "/engine.png",
+                alt: "Foto motor",
+              },
+            ];
 
   return (
     <div className="flex flex-col">
@@ -215,26 +233,7 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
-
-            const workPhotos = [
-              {
-                src: "/trans1.png",
-                alt: "Foto reparacion",
-              },
-              {
-                src: "/trans2.png",
-                alt: "Foto piezas",
-              },
-              {
-                src: "/trans3.png",
-                alt: "Foto transmision",
-              },
-              {
-                src: "/engine.png",
-                alt: "Foto motor",
-              },
-            ];
-
+            {/* Grid Photos */}
             <div className="grid grid-cols-2 gap-4">
               {workPhotos.map((photo, index) => (
                 <div
@@ -244,12 +243,11 @@ export default function HomePage() {
                   <img
                     src={photo.src}
                     alt={photo.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover sm:object-contain"
                   />
                 </div>
               ))}
-            </div>
-            
+            </div>            
           </div>
         </div>
       </section>
