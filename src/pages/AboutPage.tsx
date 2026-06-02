@@ -174,11 +174,11 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+17875551234"
+              href="tel:+17874331355"
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-foreground/90 transition-all"
             >
               <Phone className="w-5 h-5" />
-              (787) 555-1234
+              (787) 433-1355
             </a>
             <Link
               to="/contact"
