@@ -61,8 +61,8 @@ export const translations = {
       bodywork: 'Hojalatería y Pintura',
       bodyworkDesc: 'Reparación, reemplazo, y servicios de pintura.',
       cvtSpecialists: 'Especialistas en Transmisiones CVT',
-      cvtDesc1: 'La tecnología de Transmisión Variable Continua (CVT) requiere conocimiento especializado y equipo. A diferencia de las transmisiones tradicionales, las CVT usan un sistema de correa y poleas que demanda experiencia que la mayoría de los talleres no tienen.',
-      cvtDesc2: 'Nuestros técnicos están capacitados de fábrica en reparación de CVT para Nissan, Honda, Toyota, Subaru y más. Usamos piezas de calidad OEM y el equipo de diagnóstico más avanzado para asegurar que tu CVT funcione como nuevo.',
+      cvtDesc1: 'La tecnología de Transmisión Variable Continua (CVT) requiere conocimiento y equipo especializado. A diferencia de las transmisiones tradicionales, las CVT usan un sistema de correa y poleas que demanda experiencia que la mayoría de los talleres no tienen.',
+      cvtDesc2: 'Nuestros técnicos están capacitados de fábrica en reparación de CVT para Nissan, Honda, Toyota, Subaru y más. Usamos piezas de calidad OEM y el equipo de diagnóstico más avanzado para asegurar que tu auto funcione como nuevo.',
       cvtFeature1: 'Equipo de diagnóstico especializado',
       cvtFeature2: 'Piezas de repuesto de calidad OEM',
       cvtFeature3: 'Técnicos expertos y certificados',
@@ -91,7 +91,7 @@ export const translations = {
       description: 'Tu solución automotriz integral: servicios mecánicos, reparación de transmisiones, hojalatería y remolque confiable cuando lo necesites.',
       transmissionTitle: 'Reparación de Transmisiones',
       transmissionSubtitle: 'CVT, Automáticas y Manuales',
-      transmissionDesc: 'Servicios completos de transmisión desde diagnóstico hasta reconstrucciones completas. Nos especializamos en todos los tipos de transmisiones con experiencia particular en sistemas CVT modernos.',
+      transmissionDesc: 'Servicios completos de transmisión desde diagnóstico hasta reconstrucciones completas. Nos especializamos en todos los tipos de transmisiones con experiencia incluyendo sistemas CVT modernos.',
       transmissionFeatures: [
         'Reemplazo de correa y poleas CVT',
         'Reconstrucción de transmisiones automáticas',
@@ -163,7 +163,7 @@ export const translations = {
         'Paneles hundidos',
         'Daño por accidente',
         'Manchas de óxido',
-        'Bumpers sueltos, rotos o con grietas',
+        'Focos amarillos y opacos',
       ],
       whatWeOffer: 'Lo Que Ofrecemos:',
       signsYouNeed: 'Señales de que Necesitas Este Servicio:',
@@ -252,7 +252,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: 'Tus expertos de confianza en hojalatería y reparación de transmisiones CVT, automáticas y manuales en Bayamón.',
+      description: 'Tus expertos de confianza en mecánica, hojalatería y reparación de transmisiones CVT, automáticas y manuales en Bayamón.',
       construction: 'Página bajo construcción',
     },
   },
@@ -346,7 +346,7 @@ export const translations = {
       description: 'Your all‑in‑one automotive solution—mechanic services, transmission repair, bodywork, and reliable towing when needed.',
       transmissionTitle: 'Transmission Repair',
       transmissionSubtitle: 'CVT, Automatic & Manual',
-      transmissionDesc: 'Complete transmission services from diagnostics to full rebuilds. We specialize in all transmission types with particular expertise in modern CVT systems.',
+      transmissionDesc: 'Complete transmission services from diagnostics to full rebuilds. We specialize in all transmission types with expertise including modern CVT systems.',
       transmissionFeatures: [
         'CVT belt and pulley replacement',
         'Automatic transmission rebuilds',
